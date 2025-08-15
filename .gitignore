@@ -1,0 +1,71 @@
+# ---------------------------
+# Python backend
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+ENV/
+env/
+*.log
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.pyre/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---------------------------
+# Node/Tauri/Svelte frontend
+# ---------------------------
+node_modules/
+dist/
+build/
+*.log
+.npm/
+.pnpm/
+.yarn/
+.yarn-integrity
+.cache/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+vite.config.cjs.timestamp-*
+vite.config.mjs.timestamp-*
+
+# SvelteKit output
+.svelte-kit/
+.output/
+
+# Tauri build output
+/src-tauri/target/
+src-tauri/tauri.conf.json.bak
+
+# ---------------------------
+# OS-specific
+# ---------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---------------------------
+# Editor-specific
+# ---------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+.history/

@@ -1,0 +1,12 @@
+{
+  "productName": "remedial-chaos-theory",
+  "version": "0.1.0",
+  "identifier": "com.smrtesports.remedial-chaos-theory",
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": ""
+  },
+  "app": {
+    "windows": [{ "title": "Remedial Chaos Theory", "width": 1100, "height": 720 }]
+  }
+}

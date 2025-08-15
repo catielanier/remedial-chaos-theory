@@ -1,0 +1,25 @@
+{
+  "name": "remedial-chaos-theory",
+  "author": {
+    "name": "Catie Lanier",
+    "email": "catie@smrtesports.com"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "backend": "python -m backend.app"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "svelte": "^4.2.18",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0"
+  }
+}
